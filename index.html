@@ -1,0 +1,47 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <link rel="stylesheet" href="style.css">
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,700;1,400;1,800&display=swap" rel="stylesheet">
+  <title>Frontend Mentor | Age calculator app</title>
+</head>
+<body>
+  <div class="square"> 
+    <div class="rec">
+      <div class="input-container">
+        <span class="label">DAY</span>
+        <input type="number" class="input">
+        <div class="error-message"></div>
+      </div>
+      <div class="input-container">
+        <span class="label">MONTH</span>
+        <input type="number" class="input">
+        <div class="error-message"></div>
+      </div>
+      <div class="input-container">
+        <span class="label">YEAR</span>
+        <input type="number" class="input">
+        <div class="error-message"></div>
+      </div>
+    </div>
+    <div class="linha"></div>
+    <div class="imagem-container">
+      <img src="./assets/images/icon-arrow.svg" alt="Descrição da Imagem" onclick="calcularIdade()">
+    </div>
+    <div class="big_text">
+      <h1 class="resultado-years">--</h1>
+      <h1 class="resultado-months">--</h1>
+      <h1 class="resultado-days">--</h1>
+    </div> 
+  </div>
+  <script src="script.js"></script>
+  <div class="attribution">
+    Challenge by <a href="https://www.frontendmentor.io?ref=challenge" target="_blank">Frontend Mentor</a>. 
+    Coded by <a href="#">Rodrigo de Morais</a>.
+  </div> 
+</body>
+</html>
